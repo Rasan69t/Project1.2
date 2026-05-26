@@ -1,0 +1,29 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash"
+        },
+        "🔊 FAAAH Shell": {
+            "path": "powershell.exe",
+            "args": [
+                "-NoExit",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "c:\\Users\\lawoj\\.vscode\\extensions\\salmanfarsi-faaah.faaah-when-your-code-fails-to-run-0.0.2\\media\\faah-prompt.ps1"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "🔊 FAAAH Shell",
+    "workbench.browser.openLocalhostLinks": false
+}
